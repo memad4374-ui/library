@@ -1,0 +1,222 @@
+/* this is the whole page design*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+}
+/*The body*/
+body{
+    background-color: #f8f5f2;
+}
+/* NAVBAR design */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo h2{
+    color: brown;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: brown;
+}
+/*section ntext */
+.ntext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    height: 500px;
+}
+/*section text*/
+.text{
+    width: 50%;
+}
+
+.text h1{
+    font-size: 48px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 20px;
+    color: #555;
+}
+/* image*/
+.img img{
+    width: 450px;
+}
+/*section  cards which design  all the cards*/
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+/*section card it design each card*/
+.card{
+    background-color: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin-top: 15px;
+}
+
+.card p{
+    color: brown;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card button{
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: #5c1d1d;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+/* section Offers*/
+.offers{
+    padding: 40px;
+}
+.offers h2{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    margin-bottom: 30px;
+}
+/*Section Book-section*/
+.Book-section{
+    padding: 40px 50px;
+}
+.Book-section h2{
+    text-align: center;
+    font-size: 32px;
+    color: brown;
+    margin-bottom: 30px;
+}
+/* the deleted prices in the offers section */
+del{
+    color: gray;
+    margin-right: 8PX;
+}
+/* section cart-card*/
+.cart-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cart-card img{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+}
+/* NavBar*/
+nav{
+    background-color: #8B5E3C;
+    padding: 20PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    color: white;
+    margin: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #FFD700;
+} 
+nav {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+nav a:hover{
+    background-color: #8B5E3C;
+    color: white;
+}
+/* Section title*/
+.title{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    margin: 30px  0;
+}
+.success{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    margin-bottom: 30px;
+}
+.payment{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    margin-bottom: 30px;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #8B5E3C;
+}
